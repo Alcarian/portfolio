@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { projectsData } from "../data/projectsData";
 import { motion } from "framer-motion";
 
