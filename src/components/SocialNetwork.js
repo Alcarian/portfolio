@@ -21,18 +21,18 @@ export default function SocialNetwork() {
     <div className="social-network">
       <ul className="content">
         <a
-          href="https://www.facebook.com"
+          href="https://github.com/Alcarian"
           target="_blank"
           rel="noopener noreferrer"
           className="hover"
           onMouseOver={anim}
         >
           <li>
-            <i className="fab fa-facebook-f"></i>
+            <i className="fa-brands fa-github"></i>
           </li>
         </a>
         <a
-          href="https://www.twitter.com"
+          href="https://twitter.com/Alcariandev"
           target="_blank"
           rel="noopener noreferrer"
           className="hover"
@@ -43,14 +43,14 @@ export default function SocialNetwork() {
           </li>
         </a>
         <a
-          href="https://www.instagram.com"
+          href="https://www.linkedin.com/in/florian-alcaraz-480229274/"
           target="_blank"
           rel="noopener noreferrer"
           className="hover"
           onMouseOver={anim}
         >
           <li>
-            <i className="fab fa-instagram"></i>
+            <i className="fa-brands fa-linkedin"></i>
           </li>
         </a>
       </ul>

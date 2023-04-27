@@ -5,6 +5,7 @@
   font-size: 1.4rem;
   line-height: 28px;
   color: $color-4;
+  
 
   &:before {
     content: '';
@@ -12,11 +13,11 @@
     height: 300px;
     width: 300px;
     border-radius: 50%;
-    background: $color-3;
+    background: $color-6;
     top: -150px;
     left: -160px;
-    z-index: -1;
     animation: navAnim 20s infinite alternate;
+    z-index: -1;
 
     @keyframes navAnim {
       50% {
@@ -32,24 +33,25 @@
     }
   }
   .nav-active {
-    color: $black;
+    // color: $color-4;
   }
+
   ul:hover li:not(:hover) {
     opacity: .5;
+    
   }
   ul:hover li:hover {
-    color: $black;
+    color: $color-5;
   }
 
   .nav-portfolio {
     cursor: pointer;
     display: flex;
-    // padding-right: 6rem;
     transition: .5s;
+   
 
     &:hover .nav-projects,
     .nav-projects:hover {
-
       visibility: visible;
       opacity: 1;
 
@@ -72,6 +74,7 @@
         transform: rotatey(30deg) scaleX(1.2);
         transform-origin: center;
         transition: .3s;
+        color: $color-4;
       }
     }
   }

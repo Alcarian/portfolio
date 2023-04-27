@@ -2,6 +2,7 @@
   position: absolute;
   height: 100vh;
   width: 100vw;
+  background: url(../../../public/img/clavier-1.jpg);
 
   &:after {
     content: "";
@@ -12,7 +13,7 @@
     position: absolute;
     bottom: -200px;
     left: -80px;
-    z-index: -1;
+    z-index: 1;
 
     @media screen and (max-width: 810px){
       height: 200px;
@@ -148,6 +149,7 @@
       }
       li {
         font-size: 1.5rem;
+        color: $color-3;
 
         @media screen and (max-width: 700px){
           font-size: 1.1rem;
@@ -222,9 +224,13 @@
           transition: 0.5s ease;
           transform: translateY(200px);
 
+          p{
+            color: $color-5;
+          }
+
           h3 {
             padding-bottom: 10px;
-            color: rgb(2, 121, 148);
+            color: $color-2;
           }
         }
       }
