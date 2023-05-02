@@ -9,35 +9,35 @@ export default function Navigation() {
           to="/"
           className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}
         >
-          <li>accueil</li>
+          <li>Accueil</li>
         </NavLink>
 
         <li className="nav-portfolio">
-          portfolio
+          Portfolio
           <ul className="nav-projects">
             <NavLink
               to="/projet-1"
               className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}
             >
-              <li>projet 1</li>
+              <li>Projet 1</li>
             </NavLink>
             <NavLink
               to="/projet-2"
               className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}
             >
-              <li>projet 2</li>
+              <li>Projet 2</li>
             </NavLink>
             <NavLink
               to="/projet-3"
               className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}
             >
-              <li>projet 3</li>
+              <li>Projet 3</li>
             </NavLink>
             <NavLink
               to="/projet-4"
               className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}
             >
-              <li>projet 4</li>
+              <li>Projet 4</li>
             </NavLink>
           </ul>
         </li>
@@ -46,7 +46,7 @@ export default function Navigation() {
           to="/contact"
           className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}
         >
-          <li>contact</li>
+          <li>Contact</li>
         </NavLink>
       </ul>
     </div>

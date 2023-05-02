@@ -133,12 +133,13 @@
           content: "";
           height: 340px;
           width: 340px;
-          background: $color-3;
+          background: transparent;
+          border: 1px solid $color-5;
           border-radius: 50%;
           position: absolute;
           top: -28px;
           left: 70px;
-          z-index: -10;
+          z-index: 0;
 
           @media screen and (max-width: 810px){
             height: 220px;
@@ -204,6 +205,7 @@
           height: 100%;
           transition: 0.4s ease-out;
           position: relative;
+          z-index: 1;
 
           &:hover,
           span:hover img {
@@ -263,9 +265,10 @@
     position: absolute;
     height: 400px;
     width: 400px;
-    background: $color-3;
+    background: transparent;
+    border: 1px solid $color-5;
     border-radius: 50%;
-    z-index: -1;
+    z-index: 0;
     animation: circleAnim 16s infinite alternate;
 
     @keyframes circleAnim {
