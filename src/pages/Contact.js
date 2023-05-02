@@ -5,6 +5,7 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 import SocialNetwork from "../components/SocialNetwork";
 import Buttons from "../components/Buttons";
 import { motion } from "framer-motion";
+import DownloadCV from "../components/DownloadCV";
 
 export default function Contact() {
   const pageTransition = {
@@ -30,6 +31,7 @@ export default function Contact() {
       >
         <Navigation />
         <Logo />
+        <DownloadCV />
         <div className="contact-infos">
           <div className="address">
             <div className="content">
