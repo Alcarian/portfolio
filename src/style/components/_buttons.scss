@@ -1,4 +1,4 @@
-.scroll-bottom {
+.button-left-right {
     a {
       position: absolute;
       transform: translate(-50%, -50%);
@@ -12,6 +12,10 @@
 
       &:hover {
         font-size: 4rem;
+      }
+
+      @media screen and (max-width: 650px){
+        top: 60%;
       }
     }
 
