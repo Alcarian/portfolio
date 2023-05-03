@@ -247,6 +247,13 @@
     width: 130px;
 
     a {
+      @media screen and (max-width: 400px){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      
       .button {
         display: flex;
         align-items: center;

@@ -67,6 +67,10 @@
         top: 50%;
         transform: translateY(-45%);
         left: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
         @media screen and (max-width: 950px){
             left: 10%;
@@ -78,7 +82,7 @@
         }
 
         @media screen and (max-width: 410px){
-            left: 15%;
+            left: 25%;
         }
 
         img {
@@ -91,9 +95,19 @@
                 width: 250px;
                 height: 400px;
             }
+
+            @media screen and (max-width: 400px){
+                width: 150px;
+                height: 300px;
+                left: 20%;
+            }
         }   
         
         a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
             .button {
                 width: 200px;
                 padding: 5px;
@@ -109,7 +123,7 @@
                 }
                 
                 @media screen and (max-width: 410px){
-                    width: 100px;
+                    width: 80px;
                     font-size: .85rem;
                 }
               
