@@ -29,11 +29,12 @@
 
   .navigation {
     top: 5px;
-    left: 60%;
+    left: 70%;
     font-size: 1.1rem;
     line-height: 30px;
     transform: translateY(-100%);
     animation: navProject 1s ease forwards;
+    z-index: 5;
 
     @media screen and (max-width: 650px){
       left: 5%;
@@ -70,6 +71,10 @@
 
     @media screen and (max-width: 650px){
       left: 75%;
+    }
+
+    @media screen and (max-width: 500px){
+      left: 65%;
     }
   }
   .project-main {

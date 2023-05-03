@@ -57,9 +57,24 @@
       
     }
     .logo {
+        font-size: 1.3rem;
         top: 8px;
-        right: 1rem;
+        right: 20%;
         z-index: 1;
+        transform: translateX(-50%);
+        transform: scale(0);
+        animation: logoProject 2s ease forwards;
+
+        @keyframes logoProject {
+            to {
+              transform: scale(1);
+            }
+        }
+
+        @media screen and (max-width: 500px){
+            top: 4%;
+            right: 10%;
+        }
     }
 
     .downloadCV {
