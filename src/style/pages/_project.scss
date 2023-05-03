@@ -190,7 +190,7 @@
           height: 200px;
           width: 370px;
         }
-        @media screen and (max-width: 400px){
+        @media screen and (max-width: 480px){
           height: 150px;
           width: 280px
         }
@@ -253,7 +253,7 @@
         justify-content: center;
         align-items: center;
       }
-      
+
       .button {
         display: flex;
         align-items: center;
@@ -261,7 +261,7 @@
         color: $color-1;
         background: $color-2;
 
-        @media screen and (max-width: 410px){
+        @media screen and (max-width: 500px){
           width: 100px;
           font-size: .85rem;
         }
